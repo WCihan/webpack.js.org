@@ -135,7 +135,7 @@ To enable source maps, we must configure TypeScript to output inline source maps
       "outDir": "./dist/",
 +     "sourceMap": true,
       "noImplicitAny": true,
-      "module": "commonjs",
+      "module": "esnext",
       "target": "es5",
       "jsx": "react",
       "allowJs": true
